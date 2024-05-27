@@ -8,8 +8,14 @@
 <body>
     <div>
     <?php
-        echo 'Hello word!';
-        print 'Hello word!';
+
+        $x = -2;
+        if ($x >= 0) {
+            echo 'Модуль числа: ' . $x;
+        } else {
+            echo 'Модуль числа: ' . -$x;
+        }
+
     ?>
     </div>
 </body>
